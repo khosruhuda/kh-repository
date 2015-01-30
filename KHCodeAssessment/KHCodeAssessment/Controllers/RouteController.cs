@@ -2,6 +2,7 @@
 using KHCodeAssesment.Entities;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
@@ -13,7 +14,7 @@ namespace KHCodeAssesment.Controllers
     public class RouteController : ApiController
     {
         IRouteLogic routeLogic = new RouteLogic();
-        Result result = new Result();
+        Result result = new Result();        
 
         //Get the distance of the given route
         [Route("getroutedistance/{route}")]
