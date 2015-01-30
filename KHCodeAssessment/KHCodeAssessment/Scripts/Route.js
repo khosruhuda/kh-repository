@@ -88,7 +88,7 @@ function GetRelatedTextBoxDesign(obj) {
 }
 
 function displayResult(obj) {
-    var formatedResult = "No route available";
+    var formatedResult = "Available routes <br/>";
     if (obj.Data != null && obj.Data.length > 0) {
         for (var i = 0; i < obj.Data.length; i++) {
             formatedResult += obj.Data[i] + "<br/>";
@@ -96,7 +96,7 @@ function displayResult(obj) {
         $('#result').empty().append(formatedResult);
     }
     else {
-        $('#result').empty().append();
+        $('#result').empty().append("No route available");
     }
 }
 
