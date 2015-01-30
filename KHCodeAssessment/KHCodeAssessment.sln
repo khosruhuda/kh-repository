@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KHCodeAssessment", "KHCodeAssessment\KHCodeAssessment.csproj", "{CA98B436-30F6-4173-86BC-7137797CB1AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KHCodeAssessment.Tests", "KHCodeAssessment.Tests\KHCodeAssessment.Tests.csproj", "{280ADAA8-F192-4BA8-879C-9D47D246ECCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA98B436-30F6-4173-86BC-7137797CB1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA98B436-30F6-4173-86BC-7137797CB1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA98B436-30F6-4173-86BC-7137797CB1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA98B436-30F6-4173-86BC-7137797CB1AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{280ADAA8-F192-4BA8-879C-9D47D246ECCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280ADAA8-F192-4BA8-879C-9D47D246ECCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280ADAA8-F192-4BA8-879C-9D47D246ECCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280ADAA8-F192-4BA8-879C-9D47D246ECCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
